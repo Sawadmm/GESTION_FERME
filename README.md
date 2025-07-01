@@ -32,7 +32,7 @@ Cette application est développée en PHP avec une base de données MySQL, et ut
    ```bash
    git clone https://github.com/Sawadmm/GESTION_FERME.git
 
-	2.	Importer la base de données MySQL fournie (GESTION _FERME_db.sql) dans votre serveur local ( phpMyAdmin).
+	2.	Importer la base de données MySQL fournie (laferme.sql) dans votre serveur local ( phpMyAdmin).
 	3.	Configurer le fichier config.php avec vos paramètres de connexion à la base de données.
 	4.	Lancer le serveur local ( WAMP64).
 	5.	Accéder à l’application via votre navigateur :
