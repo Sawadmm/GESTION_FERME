@@ -1,0 +1,246 @@
+
+
+
+
+
+/* --- TITRES --- */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #1e3a8a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #3b82f6;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+body.dark h1 {
+    color: #93c5fd;
+}
+
+body.dark h1::after {
+    background-color: #60a5fa;
+}
+
+h2 {
+    color: #1e3a8a;
+    border-left: 5px solid #2563eb;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+/* --- FORMULAIRES --- */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+form input,
+form select,
+form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #94a3b8;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #2563eb;
+}
+
+/* 🌙 Formulaire en mode sombre */
+body.dark form {
+    background-color: #1e293b;
+    border-color: #334155;
+}
+
+body.dark form input,
+body.dark form select,
+body.dark form button {
+    background-color: #334155;
+    color: #e0e0e0;
+    border: 1px solid #475569;
+}
+
+body.dark form button {
+    background-color: #3b82f6;
+}
+
+body.dark form button:hover {
+    background-color: #2563eb;
+}
+
+/* --- TABLEAUX --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    color: #1e293b;
+}
+
+body.dark table {
+    background-color: #1e293b;
+    color: #e2e8f0;
+}
+
+body.dark th {
+    background-color: #3b82f6;
+    color: #ffffff;
+}
+
+body.dark td {
+    color: #e2e8f0;
+}
+
+/* --- LIENS D'ACTION --- */
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- MENU D’ACCUEIL --- */
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.menu-item {
+    background-color: #3b82f6;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+
+
+/* --- PIED DE PAGE --- */
+header, footer {
+  background: #004080;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+/* ✅ Barre de navigation en haut */
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #1e3a8a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    z-index: 1000;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.topbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.topbar a:hover {
+    text-decoration: underline;
+}
+
+.logout {
+    background-color: #ef4444;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #fff;
+    margin-left: 30px;
+    text-decoration: none;
+}
+
+.logout:hover {
+    background-color: #dc2626;
+}
+
+body {
+    padding-top: 70px; /* espace pour ne pas cacher le haut */
+}
+.btn-retour {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    background-color: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-retour:hover {
+    background-color: #1d4ed8;
+}
