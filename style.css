@@ -79,7 +79,7 @@ form button:hover {
     background-color: #2563eb;
 }
 
-/* 🌙 Formulaire en mode sombre */
+/* Formulaire en mode sombre */
 body.dark form {
     background-color: #1e293b;
     border-color: #334155;
@@ -185,7 +185,7 @@ header, footer {
   padding: 1em;
   text-align: center;
 }
-/* ✅ Barre de navigation en haut */
+/*  Barre de navigation en haut */
 .topbar {
     position: fixed;
     top: 0;
