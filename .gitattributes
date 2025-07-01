@@ -1,2 +1,41 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# --- Fichiers système Windows ---
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+
+# --- WampServer ---
+wamp64/
+wamp/
+www/
+logs/
+tmp/
+*.bak
+*.sql
+
+# --- Sessions PHP locales---
+sessions/
+
+# --- Environnement local / configuration perso ---
+.env
+*.env
+.env.local
+*.ini
+
+# --- Fichiers de log / erreurs ---
+*.log
+error_log
+
+# --- Dossiers d'éditeurs ---
+.vscode/
+
+# --- Fichiers temporaires / sauvegardes ---
+*.swp
+*.swo
+*.old
+*.tmp
+*.zip
+*.rar
+*.7z
